@@ -1,9 +1,9 @@
 server:
-  port: 3367
+  port: 3378
 
 eureka:
   instance:
-    instance-id: configclient3367
+    instance-id: configclient3378
     prefer-ip-address: true
   client:
     fetch-registry: true
