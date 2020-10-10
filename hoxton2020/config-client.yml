@@ -18,7 +18,7 @@ eureka:
 --
 spring:
   profiles:
-    active: test
+    active: uat
     
 server:
   port: 3377
