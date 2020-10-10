@@ -1,6 +1,5 @@
 spring:
-  profiles:
-    active: dev
+  profiles: dev
 
 server:
   port: 3366
@@ -15,10 +14,9 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
 
---
+---
 spring:
-  profiles:
-    active: uat
+  profiles: uat
     
 server:
   port: 3377
